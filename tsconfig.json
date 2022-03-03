@@ -1,0 +1,9 @@
+{
+	"extends": "@tsconfig/node16/tsconfig.json",
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"jsx": "preserve",
+		"lib": ["DOM"]
+	},
+	"include": ["src/"]
+}
