@@ -2,7 +2,7 @@
 
 This repo demonstrates how you can use Web Serial to control and send prints to your 3D printer. All through the browser!
 
-Take it for a spin [here](jamesgopsill.github.io/web-serial-printing-demonstrator).
+Take it for a spin [here](https://jamesgopsill.github.io/web-serial-printing-demonstrator/).
 
 # How does it work?
 
