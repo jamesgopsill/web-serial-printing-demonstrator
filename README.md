@@ -16,4 +16,4 @@ How about a fully-fledged slicer and control centre for your printer right in th
 
 The project has been supported by the [EPSRC-funded Brokering Additive Manufacturing project (EP/V05113X/1)](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/V05113X/1). More details on the project can be found at the [Design Manufacturing Futures Lab](https://dmf-lab.co.uk/) website.
 
-To donate and provide continued support, please go to **[TODO]**.
+If you like this project, please consider sponsoring the developers so they can continue to maintain and improve the webapp.

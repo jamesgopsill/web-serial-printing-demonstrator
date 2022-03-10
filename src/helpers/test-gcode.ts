@@ -7844,4 +7844,4 @@ M104 S0
 ;SETTING_3 op_thickness = =top_bottom_thickness\\nwall_line_count = =1 if magic_
 ;SETTING_3 spiralize else max(1, round((wall_thickness - wall_line_width_0) / wa
 ;SETTING_3 ll_line_width_x) + 1) if wall_thickness != 0 else 0\\nwall_thickness 
-;SETTING_3 = 0.8\\nzig_zaggify_infill = True\\n\\n"]}`;
+;SETTING_3 = 0.8\\nzig_zaggify_infill = True\\n\\n"]}`

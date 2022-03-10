@@ -7,18 +7,19 @@
   "private": false,
   "scripts": {
     "start": "parcel src/index.html",
-    "format": "prettier --write src/**/*",
+    "format": "prettier --write src/**",
     "build": "parcel build --dist-dir docs/ --public-url . src/index.html"
   },
   "dependencies": {
-    "react": "^17.0.2",
+    "@ant-design/icons": "^4.7.0",
     "antd": "^4.17.1",
+    "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
-    "@tsconfig/node16": "^1.0.2",
     "parcel": "^2.0.1",
     "prettier": "^2.4.1",
     "prettier-plugin-organize-imports": "^2.3.4",
