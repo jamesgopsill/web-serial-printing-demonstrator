@@ -1,29 +1,26 @@
 {
-  "name": "bam-web-serial",
-  "version": "0.1.0",
-  "description": "A demo web app provide functions to communicate directly with a 3D printer used WebUSB",
-  "author": "James Gopsill",
-  "license": "MIT",
-  "private": false,
-  "scripts": {
-    "start": "parcel src/index.html",
-    "format": "prettier --write src/**",
-    "build": "parcel build --dist-dir docs/ --public-url . src/index.html"
-  },
-  "dependencies": {
-    "@ant-design/icons": "^4.7.0",
-    "antd": "^4.17.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
-  "devDependencies": {
-    "@tsconfig/node16": "^1.0.2",
-    "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11",
-    "parcel": "^2.0.1",
-    "prettier": "^2.4.1",
-    "prettier-plugin-organize-imports": "^2.3.4",
-    "react-dom": "^17.0.2",
-    "typescript": "^4.5.2"
-  }
+	"name": "@jamesgopsill/bam-web-serial",
+	"version": "0.1.0",
+	"description": "A demo web app provide functions to communicate directly with a 3D printer used WebUSB",
+	"author": "James Gopsill",
+	"license": "MIT",
+	"private": false,
+	"type": "module",
+	"scripts": {
+		"start": "vite",
+		"build": "vite build",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^2.0.2",
+		"@tsconfig/svelte": "^3.0.0",
+		"prettier": "^2.8.4",
+		"prettier-plugin-svelte": "^2.9.0",
+		"svelte": "^3.55.1",
+		"svelte-check": "^3.0.3",
+		"svelte-preprocess": "^5.0.1",
+		"sveltestrap": "^5.10.0",
+		"typescript": "^4.9.5",
+		"vite": "^4.1.1"
+	}
 }

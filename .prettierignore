@@ -1,0 +1,4 @@
+*.png
+scratch/
+docs/
+pnpm-lock.yaml

@@ -1,6 +1,8 @@
 dist/
+docs/
 .parcel-cache/
 node_modules/
+scratch/
 
 yarn-error.log
 .DS_Store
