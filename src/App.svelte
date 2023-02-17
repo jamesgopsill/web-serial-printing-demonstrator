@@ -69,13 +69,18 @@
 	<InputGroup size="sm">
 		<Input type="number" bind:value={$baud} />
 		<InputGroupText>
-			<Input type="switch" class="mt-1" bind:checked={$isConnected} /> Connect
+			<Input
+				type="switch"
+				class="mt-1"
+				bind:checked={$isConnected}
+				label="Connect"
+			/>
 		</InputGroupText>
 	</InputGroup>
 
-	<InputGroup size="sm" class="mt-1">
-		<Input type="switch" class="" bind:checked={$debug} /> Print to Console
-	</InputGroup>
+	<FormGroup class="mt-2">
+		<Input type="switch" bind:checked={$debug} label="Print to Console" />
+	</FormGroup>
 
 	<small class="text-muted">
 		<ul class="list-inline mb-1 mt-2">
