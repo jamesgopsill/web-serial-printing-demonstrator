@@ -13,7 +13,6 @@ export async function disconnect(this: WebSerialPrinter) {
 
 	this._port.close()
 
-	//@ts-expect-error
 	if ("serial" in navigator && "forget" in SerialPort.prototype) {
 		await this._port.forget()
 	}

@@ -12,9 +12,7 @@ export async function connect(this: WebSerialPrinter) {
 
 	// Request the serial port
 	try {
-		this._port = await navigator.serial
-			//@ts-expect-error
-			.requestPort()
+		this._port = await navigator.serial.requestPort()
 	} catch (err: any) {
 		console.log(err)
 		alert("No port selected.")

@@ -169,4 +169,17 @@
 			>Cancel Print</Button
 		>
 	</InputGroup>
+
+	<hr />
+	<p class="text-center">
+		Made with <i class="bi bi-heart-fill" /> and
+		<i class="bi bi-cup-hot-fill" />. If you like the app please
+		<i class="bi bi-star-fill" /> on
+		<a href="https://github.com/jamesgopsill/web-serial-printing-demonstrator"
+			><i class="bi bi-github" /></a
+		>
+		and/or
+		<a href="https://github.com/sponsors/jamesgopsill">sponsor</a> the developers
+		to support future development.
+	</p>
 </div>
